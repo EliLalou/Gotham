@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url(data:image/png;base64,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);
+html{
+    font-size: 62.5%;
+    background: #000 url(../asset/Backgroundbatmanallgenerations.jpg) no-repeat fixed center center / cover;
+    scroll-behavior: smooth;
+}
+body{
+    font: 1.6rem 'Open Sans' ,sans-serif;
+    margin: 0;      
+}
+*{
+    box-sizing: border-box;
+}
+p{
+    line-height: 2.5rem;
+}
+address{
+    font-style: normal;
+}
+h1,h2,h3,p,blockquote,figure,ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+}
+a{
+    text-decoration:none;
+    color: #222;
+}
+input {
+    border: 0;
+    font-size: inherit;
+    transition: all 0.5rem ease-in-out;
+}
+button, select {
+    border: 0;
+    background-color: transparent;
+    font-size: initial;
+    text-transform: capitalize;
+}
+/*Theme*/
+:root{ /* on met ce root comme une repertoire pour ne pas répéter les couleurs just on prend la var comme raccourcis*/
+    --color-bg-default:#3d3838;
+    --color-link:#333;
+    --color-body:#fafafa;
+    --header-color:#fff;
+}
+main{
+    box-shadow: 0 0 0.8rem var(--color-bg-default);
+}
+header,main{
+    max-width: 90rem;
+    border: .1rem solid transparent;
+    background-color: rgba(250, 255, 255, 0.8);
+    margin: 0 auto;
+    padding: 0.5rem;
+}
+section > h2, nav > h2{
+    position: sticky;
+    top: 0;
+    background-color: var(--header-color);
+    line-height: 4.5rem;
+    padding: .5rem;
+    text-transform: capitalize;
+    box-shadow: 0.3rem .1rem 0 rgb(255, 255, 255);
+    text-shadow: .1rem .1rem 0 var(--color-link);
+    color: #595959;
+    margin-top: 1.05rem;
+}
+section p{
+    padding: .5rem;
+    line-height: 2.6rem;
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+nav ul li{
+    text-transform: capitalize;
+    line-height: 2.5rem;
+}
+nav ul li:hover a{
+    text-decoration: underline;
+}
+img{
+    display: block;
+    width: 100%;
+}
+footer *{
+    text-align: center;
+    text-transform: capitalize;
+    color: #fafafa;
+    margin: .3rem 0;
+}
+
+footer p a i{
+    margin-right: 1.5rem;
+    
+}
+footer p a i:last-child{
+    margin-left: 1.5rem;
+}
+section img{
+    transition-duration: 0.25s;
+}
+section img:hover{
+    transform: scale(1.01);
+}
+
+
+
+
